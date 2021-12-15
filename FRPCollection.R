@@ -5,7 +5,7 @@ as_tibble(data)
 
 
 
-graph <- ggplot(data, aes(year, FRP)) + geom_col(aes(fill = factor(lctype)), 
+graph <- ggplot(data, aes(year, FRP)) + geom_col(aes(fill = factor(type)), 
                                                            position = "dodge")
 
 print(graph)

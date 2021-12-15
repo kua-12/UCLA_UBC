@@ -6,7 +6,7 @@ as_tibble(data)
 
 
 graph <- ggplot(data, aes(year2, precip_mm)) +
-  geom_bar(stat="identity", fill="steelblue")+
+  geom_bar(stat="identity")+
   theme_minimal()
 print(graph)
 
